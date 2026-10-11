@@ -3,9 +3,9 @@ import { createRoot } from 'react-dom/client'
 import './style.css'
 
 const interests = [
-  { number: '01', title: 'Learning', copy: 'Following questions wherever they lead, in and out of the classroom.' },
-  { number: '02', title: 'Making', copy: 'Turning ideas into small projects, experiments, and things worth sharing.' },
-  { number: '03', title: 'Exploring', copy: 'Finding new places, perspectives, and good conversations along the way.' },
+  { number: '01', title: 'Video Games', copy: 'They are fun :).' },
+  { number: '02', title: 'Sports', copy: 'I like to play tennis and basketball.' },
+  { number: '03', title: 'Engineering', copy: 'I like being able to design and create things.' },
 ]
 
 function Arrow({ diagonal = false }) {
@@ -28,7 +28,7 @@ function App() {
         <section className="hero section-wrap" id="home">
           <div className="hero-copy">
             <p className="eyebrow"><span className="status-dot" /> A little corner of the internet</p>
-            <h1>Hi, I’m <em>[Niko].</em><br />I’m figuring things out.</h1>
+            <h1>Hi, I’m <em>[Niko].</em><br />And This is my Beginning Website.</h1>
             <p className="hero-intro">A student, a curious person, and a work in progress. This is where I’m collecting a few things about me and what I’m learning along the way.</p>
             <a href="#about" className="text-link">A little more about me <Arrow /></a>
           </div>
@@ -56,10 +56,10 @@ function App() {
           <div className="section-label"><span>01</span><span>THE SHORT VERSION</span></div>
           <div className="about-content">
             <p className="eyebrow">A bit about me</p>
-            <h2>Right now, I’m a<br /><em>student of the world.</em></h2>
+            <h2>Right now, I’m a<br /><em> person of the internet.</em></h2>
             <div className="about-bottom">
-              <p>I’m currently studying <strong>[your subject or area]</strong> at <strong>[your school or university]</strong>. I like learning how things work, asking one more question, and finding ways to put new ideas into practice.</p>
-              <p>This site is a small snapshot of where I am right now. It’ll grow as I do — with the projects, places, and people that shape what comes next.</p>
+              <p>I’m currently studying <strong>[AIBHS]</strong> at <strong>[UF in Jacksonville]</strong>. I like acquiring knowledge to be able o create technologies to be able to bend to my will.</p>
+              <p>This site is only the beginning of my github and project experiences so it SHALL GROW!!!!.</p>
             </div>
           </div>
           <div className="about-stamp">CURIOUS<br />BY NATURE <span>✳</span></div>
